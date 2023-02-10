@@ -34,7 +34,7 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #bf307d;
   color: #fff;
 }
 
@@ -72,7 +72,7 @@ p {
 /* Title Section */
 
 #title {
-  background-color: #ff4c68;
+  background-color: #bf307d;
   color: #fff;
   text-align: left;
 }
@@ -104,7 +104,7 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color:#bf307d;
   margin-bottom: 1rem;
 }
 
@@ -115,7 +115,7 @@ p {
 /* Testimonial Section */
 
 #testimonials {
-  background-color: #ef8172;
+  background-color: #bf307d;
 }
 
 .testimonial-text {
@@ -133,7 +133,7 @@ p {
 }
 
 #press {
-  background-color: #ef8172;
+  background-color: #bf307d;
   padding-bottom: 3%;
 }
 
@@ -176,5 +176,8 @@ p {
   .title-image {
     position: static;
     transform: rotate(0);
+  }
+  .pricing-column{
+    
   }
 }

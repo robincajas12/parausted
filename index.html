@@ -133,7 +133,7 @@
 
     <div class="row">
 
-      <div class="pricing-column col-lg-4 col-md-6">
+      <div class="pricing-column col-lg-4 col-md-12">
         <div class="card">
           <div class="card-header">
             <h3>Plan normal</h3>
@@ -148,7 +148,7 @@
         </div>
       </div>
 
-      <div class="pricing-column col-lg-4 col-md-6">
+      <div class="pricing-column col-lg-4 col-md-12">
         <div class="card">
           <div class="card-header">
             <h3>Plan premiun</h3>
@@ -168,7 +168,7 @@
         </div>
       </div>
 
-      <div class="pricing-column col-lg-4">
+      <div class="pricing-column col-lg-4 col-md-12">
         <div class="card">
           <div class="card-header">
             <h3>Plan expert</h3>
@@ -217,12 +217,17 @@
   </footer>
 
   <script>
+    let played = false;
     let si = document.getElementById('si');
     let no = document.getElementById('no');
     si.addEventListener('click', ()=>{
       alert('GRACIAS!!! UWU ENVIAME UN "SI ACEPTO CONOCERTE MEJOR" AL MESSENGER POR FAVOR UWU <3 PERO ANTES DE SALIR DE LA PAGINA SUBE EL VOLUMEN A TU DISPOSITIVO UWU EN VERDAD TE QUIERO MUCHOOOOOOO!!!');
-      const play = new Audio('./song/enamorado-tuyo.mp3');
-      play.play();
+      if(played == false)
+      {
+              const play = new Audio('./song/enamorado-tuyo.mp3');
+              play.play();
+              played = true;
+      }
     })
     no.addEventListener('click', ()=>{
       alert("OK GÉNESIS, LOS ENTIENDO UNU, enviame un No acepto en messenger porfavor")
