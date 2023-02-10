@@ -168,7 +168,6 @@ p {
 }
 
 @media (max-width: 1028px) {
-
   #title {
     text-align: center;
   }
@@ -177,5 +176,56 @@ p {
     position: static;
     transform: rotate(0);
   }
-
+  .feature-title{
+    font-size: 3rem;
+  }
+  .p-features{
+    font-size: 3rem;
+  }
+  .icon-feature{
+    font-size: 10rem;
+  }
+  .a{
+    font-size: 3rem;
+  }
+  .testimonial-text{
+    font-size: 3rem;
+  }
+  .dog{
+    font-size: 3rem;
+  }
+  .testimonial-image{
+    width: 10rem;
+    height: 10rem;
+  }
+  .section-heading{
+    font-size: 7rem;
+  }
+  .price-text{
+    font-size: 5rem;
+  }
+  #pricing p{
+    font-size: 3rem;
+  }
+  #pricing h3{
+    font-size: 3rem;
+  }
+  .btn
+  {
+    font-size: 3.5rem;
+    border-radius: 15px;
+  }
+  .text-love{
+    font-size: 3rem;
+  }
+  .prop{
+    font-size: 5rem;
+  }
+  #si, #no{
+    font-size: 3rem;
+  }
+  .para{
+    padding: 25% 0 25% 0;
+    font-size: 3rem;
+  }
 }
