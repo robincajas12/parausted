@@ -162,7 +162,10 @@ p {
 
 /* Footer Section */
 
-
+.comprar
+{
+  box-shadow: 0px 0px 50px #d8d8d8 ;
+}
 .social-icon {
   margin: 20px 10px;
 }
