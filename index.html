@@ -225,7 +225,9 @@
     let siu = document.getElementById('siu');
     let ad = document.getElementById('ad');
     si.addEventListener('click', ()=>{
-      alert('Hablemos de esto ok?');
+      alert('Hablemos de esto ok?... sube el volumen a tu dispositivo');
+      const audio = new Audio('./song/enamorado-tuyo.mp3')
+      audio.play();
     })
     // no.addEventListener('click', ()=>{
     //   alert("OK GÉNESIS, LOS ENTIENDO UNU, enviame un No acepto en messenger porfavor")
