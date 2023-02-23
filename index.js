@@ -2,12 +2,13 @@ const resultado = [];
 
 function y(x)
 {
-    const dividendo = (4 * Math.pow(x, 2));
+    const dividendo = 1;
     console.log(dividendo)
-    const divisor = Math.pow(x, 2) - 9;
+    const divisor = Math.pow(x,2) - (4*x) - 4
     console.log(divisor)
     const result = dividendo / divisor;
-    return result;
+    console.log(`${dividendo} / ${divisor}`)
+    return result +  ` | ${dividendo} / ${divisor}`;
 }
 
 for(let i = -20 ; i < 20; i++)
@@ -17,4 +18,4 @@ for(let i = -20 ; i < 20; i++)
     resultado.push(`x: ${i} | y: ` + y(i)); 
 }
 
-console.table(resultado);
+console.log(resultado);
